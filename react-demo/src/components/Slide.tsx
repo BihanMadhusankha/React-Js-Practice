@@ -1,11 +1,11 @@
 import headerImg from '../../public/vite.svg';
 
-interface Props{
+interface Any{
     title: string;
     children: string; 
 }
 
-function Slide(props:Props) {
+function Slide(props:Any) {
     return(
         <div>
             <img src={headerImg} alt="" />
