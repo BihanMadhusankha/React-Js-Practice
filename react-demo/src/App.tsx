@@ -10,6 +10,8 @@ import Lecture from "./components/Lecture";
 import AOS from 'aos';
 import 'aos/dist/aos.js';
 import 'aos/dist/aos.css';
+import Header from './components/Header';
+import Registation from './components/registation';
 
 function AppendIcetSuffix(username: string) {
   return username + " ICET";
@@ -65,6 +67,16 @@ useEffect(()=>{
           <p>{content}</p>
         </div>
         
+      </div>
+
+      <div className="container">
+        <div className="row">
+          <Header/>
+        </div>
+
+        <div className="row">
+          <Registation/>
+        </div>
       </div>
 
     </div>
