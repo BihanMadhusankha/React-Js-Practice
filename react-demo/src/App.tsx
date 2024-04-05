@@ -12,6 +12,7 @@ import 'aos/dist/aos.js';
 import 'aos/dist/aos.css';
 import Header from './components/Header';
 import Registation from './components/registation';
+import Registration from './components/Registration';
 
 function AppendIcetSuffix(username: string) {
   return username + " ICET";
@@ -76,6 +77,12 @@ useEffect(()=>{
 
         <div className="row">
           <Registation/>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row">
+          <Registration/>
         </div>
       </div>
 
